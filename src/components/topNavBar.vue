@@ -36,6 +36,7 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
+  z-index: 1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,7 +50,7 @@ nav {
         height: 1.5rem;
         fill: #444;
         overflow: hidden;
-        margin-right: .4rem;
+        margin-right: 0.4rem;
       }
 
       display: flex;
@@ -57,31 +58,31 @@ nav {
       align-items: center;
 
       .header-name {
-        opacity: 1;
+        opacity: 0;
         color: #444;
-        font-size: .9rem;
+        font-size: 0.9rem;
       }
     }
-    padding: .7rem;
+    padding: 0.7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     border-bottom: 1px solid #ddd;
 
     .tab-list {
       color: #666;
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
   }
 
   .header-nav.sticky {
     border-color: transparent;
-    width: 80%;
-    
+    width: 100%;
+
     .header-name {
-      opacity: 0;
+      opacity: 1;
     }
   }
 }

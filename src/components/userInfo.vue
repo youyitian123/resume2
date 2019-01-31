@@ -5,7 +5,7 @@
         <h1 class="item-title hello">关于</h1>
         <div class="item-desc">
           <ul class="item-desc-list">
-            <li>我的名字叫冯锦城，现居住在广州，是一名前端开发学习者，目前正在寻找一份前端开发的工作，如果你看到我的简历觉得不错，可以通过下面的联系方式来联系我。</li>
+            <li>一个前端开发学习者，最近在寻找一份前端开发的工作，如果你看到我的简历觉得不错，可以通过下面的联系方式来联系我。</li>
             <li></li>
           </ul>
         </div>
@@ -70,31 +70,29 @@
   position: absolute;
   content: "Hello";
   display: block;
-  padding: .3rem;
+  padding: 0.3rem;
   height: 1.5rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
   line-height: 1.5rem;
   background: orange;
   top: 0px;
   left: 5rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 .hello::before {
   position: absolute;
   left: 4.6rem;
-  top: .4rem;
+  top: 0.4rem;
   content: "";
   display: block;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: .5rem .5rem .5rem 0;
+  border-width: 0.5rem 0.5rem 0.5rem 0;
   border-color: transparent orange transparent transparent;
 }
-
-
 
 .about {
   margin-top: 4.5rem;
