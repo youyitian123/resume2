@@ -79,8 +79,9 @@ nav {
   }
 
   .header-nav.sticky {
-    border-color: #ffffff;
+    border-color: transparent;
     width: 80%;
+    
     .header-name {
       opacity: 0;
     }
