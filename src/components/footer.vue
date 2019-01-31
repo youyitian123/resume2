@@ -7,11 +7,13 @@
 <style lang="scss" scoped>
 .ad {
 	max-width: 70%;
-	margin: 0 auto;
+	margin: 2rem auto;
 	text-align: center;
 	p {
-        font-size: 13px;
+	padding: 2rem;
+		font-size: 0.8rem;
 		color: #666;
+		border-top: 1px solid #ddd;
 	}
 }
 </style>

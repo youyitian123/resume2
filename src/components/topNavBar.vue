@@ -4,7 +4,7 @@
       <div class="logo">
         <a href="#">
           <svg class="icon" aria-hidden="true">
-            <use xlink:href="#icon-logout"></use>
+            <use xlink:href="#icon-idcard"></use>
           </svg>
         </a>
         <span class="header-name">
@@ -45,11 +45,11 @@ nav {
 
     .logo {
       .icon {
-        width: 25px;
-        height: 25px;
+        width: 1.5rem;
+        height: 1.5rem;
         fill: #444;
         overflow: hidden;
-        margin-right: 10px;
+        margin-right: .4rem;
       }
 
       display: flex;
@@ -59,9 +59,10 @@ nav {
       .header-name {
         opacity: 1;
         color: #444;
+        font-size: .9rem;
       }
     }
-    padding: 10px;
+    padding: .7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,10 +72,7 @@ nav {
 
     .tab-list {
       color: #666;
-      font-size: 14px;
-      a {
-        margin: 5px;
-      }
+      font-size: .9rem;
     }
   }
 

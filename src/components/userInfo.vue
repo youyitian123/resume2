@@ -38,7 +38,7 @@
         <div class="item-desc">
           <ul class="item-desc-list">
             <li>Vue</li>
-            <li>HTML5,CSS3,Javascript</li>
+            <li>HTML5,CSS3,JavaScript</li>
             <li>jQuery</li>
             <li>移动端开发</li>
             <li>HTTP</li>
@@ -70,39 +70,41 @@
   position: absolute;
   content: "Hello";
   display: block;
-  padding: 5px;
-  height: 25px;
-  font-size: 15px;
+  padding: .3rem;
+  height: 1.5rem;
+  font-size: .9rem;
   text-align: center;
-  line-height: 25px;
+  line-height: 1.5rem;
   background: orange;
   top: 0px;
-  left: 80px;
-  border-radius: 3px;
+  left: 5rem;
+  border-radius: .3rem;
 }
 
 .hello::before {
   position: absolute;
-  left: 75px;
-  top: 7px;
+  left: 4.6rem;
+  top: .4rem;
   content: "";
   display: block;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 10px 10px 10px 0;
+  border-width: .5rem .5rem .5rem 0;
   border-color: transparent orange transparent transparent;
 }
 
+
+
 .about {
-  margin-top: 150px;
+  margin-top: 4.5rem;
   .inner-item {
     max-width: 70%;
     margin: 0 auto;
     width: 70vw;
     color: #666;
     .item {
-      margin: 10px 0;
+      margin: 2rem 0;
       font-size: 0.875rem;
       display: flex;
       .item-title {
@@ -116,9 +118,9 @@
         .item-desc-list {
           li {
             word-wrap: break-word;
-            line-height: 30px;
+            line-height: 2rem;
             span {
-              font-size: 13px;
+              font-size: 0.9rem;
             }
           }
         }
