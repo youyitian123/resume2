@@ -1,5 +1,5 @@
 <template>
-  <article class="about">
+  <article class="about" id="about">
     <div class="inner-item">
       <div class="item">
         <h1 class="item-title hello">关于</h1>
@@ -44,7 +44,7 @@
             <li>HTTP</li>
             <li>
               <strong class="point">其他</strong>
-              <span>webpack,Chai,karma,parcel,Sass...</span>
+              <span>webpack,Chai,karma,parcel,Scss...</span>
             </li>
           </ul>
         </div>

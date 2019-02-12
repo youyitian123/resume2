@@ -1,9 +1,13 @@
 <template>
   <div class="introduction">
     <h1>看这,我叫冯锦城,</h1>
-    <span>1996年出生，现居住在广州</span>
+    <span>
+      <u>1996年出生，现居住在广州</u>
+    </span>
     <h1>一名前端开发学习者</h1>
-    <span><u>前端小菜鸡</u></span>
+    <span>
+      <u>前端小菜鸡，正在努力搬砖学习当中，期望成为一名前端工程师</u>
+    </span>
   </div>
 </template>
 
